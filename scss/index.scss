@@ -1,0 +1,32 @@
+$base-color : #ABCDED;
+$dark-color : #81B4E4;
+$light-color : #D5E6F6;
+
+html, body {
+    margin : 0;
+    padding: 0;
+    background: $base-color;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: calc(100vw - 80px);
+    margin-left: 40px;
+
+    height: 100vh;
+}
+
+.shadow {
+    box-shadow: -8px -8px 12px rgba($dark-color, 0.5), 
+    8px 8px 12px rgba($light-color, 0.5);
+}
+
+.inset-shadow {
+    box-shadow: inset -8px -8px 12px rgba($dark-color, 0.5), 
+    inset 8px 8px 12px rgba($light-color, 0.5);
+    
+}
